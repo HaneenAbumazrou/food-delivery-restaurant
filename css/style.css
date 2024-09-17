@@ -89,6 +89,8 @@ p {
     list-style: none;
 }
 .logo{
+    width: 100px;
+    height: 100px;
  
 }
 
@@ -157,6 +159,17 @@ p {
 .hero-text-wrapper p {
     margin-bottom: 20px;
     color: var(--text-color);
+}
+
+.popular-dishes-items {
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(1,1fr);
+text-align: center;
+}
+.rating {
+    color: gold;
 }
 
 
